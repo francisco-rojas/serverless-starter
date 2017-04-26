@@ -33,6 +33,9 @@ Deploy your functions and endpoints:
 serverless deploy
 ```
 
+##Add credentials
+serverless config credentials --provider aws --key XXX --secret YYY
+
 ##Testing with Curl
 
 Use the following commands to test your newly created endpoints.
